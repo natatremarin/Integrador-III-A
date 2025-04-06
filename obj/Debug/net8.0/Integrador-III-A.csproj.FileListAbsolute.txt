@@ -1,0 +1,15 @@
+/home/galinho/Documentos/Integrador-III-A/bin/Debug/net8.0/Integrador-III-A
+/home/galinho/Documentos/Integrador-III-A/bin/Debug/net8.0/Integrador-III-A.deps.json
+/home/galinho/Documentos/Integrador-III-A/bin/Debug/net8.0/Integrador-III-A.runtimeconfig.json
+/home/galinho/Documentos/Integrador-III-A/bin/Debug/net8.0/Integrador-III-A.dll
+/home/galinho/Documentos/Integrador-III-A/bin/Debug/net8.0/Integrador-III-A.pdb
+/home/galinho/Documentos/Integrador-III-A/obj/Debug/net8.0/Integrador-III-A.GeneratedMSBuildEditorConfig.editorconfig
+/home/galinho/Documentos/Integrador-III-A/obj/Debug/net8.0/Integrador-III-A.AssemblyInfoInputs.cache
+/home/galinho/Documentos/Integrador-III-A/obj/Debug/net8.0/Integrador-III-A.AssemblyInfo.cs
+/home/galinho/Documentos/Integrador-III-A/obj/Debug/net8.0/Integrador-III-A.csproj.CoreCompileInputs.cache
+/home/galinho/Documentos/Integrador-III-A/obj/Debug/net8.0/Integrador-III-A.sourcelink.json
+/home/galinho/Documentos/Integrador-III-A/obj/Debug/net8.0/Integrador-III-A.dll
+/home/galinho/Documentos/Integrador-III-A/obj/Debug/net8.0/refint/Integrador-III-A.dll
+/home/galinho/Documentos/Integrador-III-A/obj/Debug/net8.0/Integrador-III-A.pdb
+/home/galinho/Documentos/Integrador-III-A/obj/Debug/net8.0/Integrador-III-A.genruntimeconfig.cache
+/home/galinho/Documentos/Integrador-III-A/obj/Debug/net8.0/ref/Integrador-III-A.dll

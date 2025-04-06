@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Integrador-III-A/1.0.0": {
+        "runtime": {
+          "Integrador-III-A.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Integrador-III-A/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
