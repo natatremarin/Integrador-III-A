@@ -98,9 +98,16 @@ namespace SistemaEscolar
             }
             
             Aluno aluno = new Aluno(nome, cpf, endereco, dataNascimento);
-            listaAlunos.incluirNoFim(aluno);
             
-            Console.WriteLine("\nAluno cadastrado com sucesso!");
+            try
+            {
+                listaAlunos.incluirNoFim(aluno);
+                Console.WriteLine("\nAluno cadastrado com sucesso!");
+            }
+                catch (ExcecaoDeAlunoJaExistente e)
+            {
+                Console.WriteLine($"Erro: {e.Message}");
+            }
         }
 
         private static void CadastrarTurma()

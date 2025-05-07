@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/galinho/Documentos/Integrador-III-A/Integrador-III-A.csproj": {}
+    "/home/nataniel/Projetos/Integrador-III-A/Integrador-III-A.csproj": {}
   },
   "projects": {
-    "/home/galinho/Documentos/Integrador-III-A/Integrador-III-A.csproj": {
+    "/home/nataniel/Projetos/Integrador-III-A/Integrador-III-A.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/galinho/Documentos/Integrador-III-A/Integrador-III-A.csproj",
+        "projectUniqueName": "/home/nataniel/Projetos/Integrador-III-A/Integrador-III-A.csproj",
         "projectName": "Integrador-III-A",
-        "projectPath": "/home/galinho/Documentos/Integrador-III-A/Integrador-III-A.csproj",
-        "packagesPath": "/home/galinho/.nuget/packages/",
-        "outputPath": "/home/galinho/Documentos/Integrador-III-A/obj/",
+        "projectPath": "/home/nataniel/Projetos/Integrador-III-A/Integrador-III-A.csproj",
+        "packagesPath": "/home/nataniel/.nuget/packages/",
+        "outputPath": "/home/nataniel/Projetos/Integrador-III-A/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/galinho/.nuget/NuGet/NuGet.Config"
+          "/home/nataniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
