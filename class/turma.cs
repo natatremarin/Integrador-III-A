@@ -73,5 +73,19 @@ namespace SistemaEscolar
         {
             return $"Código: {Codigo}, Etapa: {Etapa}, Ano: {Ano}, Vagas: {NumeroMatriculados}/{LimiteVagas}";
         }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj is Turma outra)
+            {
+                return this.Codigo == outra.Codigo;
+            }
+            return false;
+        }
+        
+        public override int GetHashCode()
+        {
+            return Codigo.GetHashCode();
+        }
     }
 }
