@@ -29,5 +29,19 @@ namespace SistemaEscolar
         {
             return $"Nome: {Nome}, CPF: {CPF}, Endereço: {Endereco}, Data de Nascimento: {DataNascimento.ToShortDateString()}, Idade: {CalcularIdade()} anos";
         }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj is Aluno outro)
+            {
+                return this.CPF == outro.CPF;
+            }
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return CPF.GetHashCode();
+        }
     }
 }
