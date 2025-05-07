@@ -28,8 +28,26 @@ namespace SistemaEscolar
             quantidade = 0;
         }
 
+        private bool Contem(Aluno aluno)
+        {
+            No atual = primeiro;
+
+            while (atual != null)
+            {
+                if (atual.Aluno.Equals(aluno))
+                    return true;
+                    
+                atual = atual.Proximo;
+            }
+
+            return false;
+        }
+
         public void incluirNoInicio(Aluno aluno)
         {
+            if (Contem(aluno))
+                throw new ExcecaoDeAlunoJaExistente("Aluno já está cadastrado na lista.");
+
             No novoNo = new No(aluno);
             
             if (primeiro == null)
@@ -48,6 +66,9 @@ namespace SistemaEscolar
 
         public void incluirNoFim(Aluno aluno)
         {
+            if (Contem(aluno))
+                throw new ExcecaoDeAlunoJaExistente("Aluno já está cadastrado na lista.");
+
             No novoNo = new No(aluno);
             
             if (primeiro == null)
